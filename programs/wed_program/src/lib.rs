@@ -17,7 +17,7 @@ pub mod wed_program {
     pub fn marry(ctx: Context<Marry>) -> ProgramResult {
         let my_account = &mut ctx.accounts.my_account;
         let spouse_account = &mut ctx.accounts.spouse_account;
-        // if poinitng to self initialize the marriage , else do not allow to init , settle the previous one
+        // if pointing to self initialize the marriage , else do not allow to init , settle the previous one
         if my_account.spouse == *my_account.to_account_info().key {
             my_account.spouse=*spouse_account.to_account_info().key;
             my_account.count += 1;
@@ -40,14 +40,14 @@ pub mod wed_program {
         let spouse_account = &mut ctx.accounts.spouse_account;
         if my_account.spouse == *spouse_account.to_account_info().key && spouse_account.spouse == *my_account.to_account_info().key && spouse_account.init_divorce==false
         {
-            //marriage was accepted as each other spouse and other party has not  initaited the divroce
+            //marriage was accepted as each other spouse and other party has not  initiated the divorce
             my_account.init_divorce=true;
  
         }
 
         if my_account.spouse == *spouse_account.to_account_info().key && spouse_account.spouse == *my_account.to_account_info().key && spouse_account.init_divorce==true
         {
-            //marriage was accepted as each other spouse and other party has initaited the divroce // finalize the divorce point back to self
+            //marriage was accepted as each other spouse and other party has initiated the divorce // finalize the divorce point back to self
         
             my_account.spouse= *my_account.to_account_info().key;
             my_account.init_divorce=false;
@@ -56,6 +56,7 @@ pub mod wed_program {
         if my_account.spouse == *spouse_account.to_account_info().key && spouse_account.spouse != *my_account.to_account_info().key 
         {
             //marriage was not accepted in first place, go back to self and die alone
+            //or divorce is finalized by spouse and you need to finalize too
             my_account.spouse= *my_account.to_account_info().key;
             my_account.init_divorce=false;
         }
