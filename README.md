@@ -1,5 +1,5 @@
-# SOLOVE
-##  A platform to register your marraige on solana 
+# SOLove
+##  A platform to register your marriage on solana 
 
 IT is a program on solana where you can register you marriage , in future you can create NFTs of you moments, create digital wedding card as NFT and much more.
 
