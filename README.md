@@ -69,8 +69,11 @@ It is two step process
 --- Second: Account2 select Account1 as his/her spouse 
 
 Marriage can only happen when `spouse field is pointing to self` that is Account is not married 
+
 If both account has each other as their spouse they are considered married on program .
+
 Person trying to re-marry has to first go through dicovrce process which require mutual consent from both the parties 
+
 And if only one Account has selected the other account as spouse  in that case first preivous marrige initalization needs to be cancelled
 
 
