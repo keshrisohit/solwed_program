@@ -24,7 +24,7 @@ You can event trade - example if wedding invitation NFT belongs to celberity wed
 ## Application
 Program is deployed on devnet , PROGRAM_ID : `FCyBRCbnCKee7NLBTn2mD4NoXJD2wmxeCMMEwbA358WL`
 A Dapp interacting with the program  **SOLOVE**  is avaialable here [SOLOVE APP LINK ](http://solove.s3-website.ap-south-1.amazonaws.com/)
-[SOLOVE GITHUB] (https://github.com/keshrisohit/sollov_app)
+[SOLOVE GITHUB](https://github.com/keshrisohit/sollov_app)
 
 ## Installation
 
