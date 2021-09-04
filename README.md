@@ -63,8 +63,11 @@ pub struct WedAccount {
 
 ### Marriage
 It is two step process 
+
 --- First: Account1 select Account2 as his/her sposue 
+
 --- Second: Account2 select Account1 as his/her spouse 
+
 Marriage can only happen when `spouse field is pointing to self` that is Account is not married 
 If both account has each other as their spouse they are considered married on program .
 Person trying to re-marry has to first go through dicovrce process which require mutual consent from both the parties 
@@ -74,8 +77,11 @@ And if only one Account has selected the other account as spouse  in that case f
 
 ### Divorce
 It is three step process
+
 ---  First: Any of the partner need to initalize the divorce process 
+
 --- Second: Other partner need to accept the divorce and  then he/she can marry someone again 
+
 --- Third: First partner who initalizd the process need to finalize the process so that he/she can marry again
 
 - When divorce is intialize by`Account1` its `init_divorce=true`
