@@ -26,7 +26,8 @@ Program is deployed on devnet , PROGRAM_ID : `FCyBRCbnCKee7NLBTn2mD4NoXJD2wmxeCM
 A Dapp interacting with the program  **SOLOVE**  is avaialable here [SOLOVE APP LINK ](http://solove.s3-website.ap-south-1.amazonaws.com/)
 
 [SOLOVE GITHUB](https://github.com/keshrisohit/sollov_app)
-[DEMO] (https://youtu.be/pBQuEkMW2D4)
+
+[DEMO](https://youtu.be/pBQuEkMW2D4)
 
 ## Installation
 
