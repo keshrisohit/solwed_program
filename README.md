@@ -1,7 +1,9 @@
 # SOLOVE
 ##  A platform to register your marraige on solana 
 
-IT is a program on solana where you can register you marriage , in future you can create NFTs of you moments, create digital wedding card as NFT and trade them if the the card is unqiue - example if it belongs to celberity wedding invitation and only 100 of them were issued.
+IT is a program on solana where you can register you marriage , in future you can create NFTs of you moments, create digital wedding card as NFT and much more.
+
+You can event trade - example if wedding invitation NFT belongs to celberity wedding  and only 100 of them were issued it has some worth as it is unique authentic and rare.
 
 
 
