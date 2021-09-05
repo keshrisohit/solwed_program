@@ -27,7 +27,7 @@ A Dapp interacting with the program  **SOLOVE**  is avaialable here [SOLove APP 
 
 [SOLove GITHUB](https://github.com/keshrisohit/sollov_app)
 
-[DEMO](https://youtu.be/pBQuEkMW2D4)
+[DEMO](https://youtu.be/lODFxNFv5N4)
 
 ## Installation
 
